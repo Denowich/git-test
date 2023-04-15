@@ -13,7 +13,7 @@ body {
 /* ========================== */
 .header {
     background-color: #151515;
-    padding: 20px 0 2gi0px;
+    padding: 20px 0 20px;
 }
 .container {
     max-width: 1230px;
@@ -37,4 +37,7 @@ body {
 }
 .menu__link {
     color: #fff;
+}
+.menu__link:hover {
+    text-decoration: underline;
 }
