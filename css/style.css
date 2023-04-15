@@ -38,6 +38,7 @@ body {
 }
 .menu__link {
     color: #fff;
+    text-decoration: underline;
 }
 .menu__link:hover {
     text-decoration: underline;
