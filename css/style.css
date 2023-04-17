@@ -48,5 +48,6 @@ body {
     font-weight: 700;
 }
 .menu__link:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: yellow;
 }
