@@ -14,6 +14,15 @@ body {
     flex-direction: column;
 }
 /* ========================== */
+
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* ========================== */
+
 .header {
     background-color: #151515;
 }
@@ -55,6 +64,58 @@ body {
     flex-grow: 1;
 }
 /* ==================================== */
+.how-does {
+    padding-bottom: 150px;
+}
+.container {
+}
+.how-does__body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.how-does__text {
+}
+.how-does__title {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.how-does__list {
+    padding: 50px 0 70px;
+    counter-reset: myCount;
+}
+.how-does__item::after {
+    counter-increment: myCount;
+    content: counter(myCount);
+    display: flex;
+    background-color: rgb(97, 228, 21);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.how-does__item {
+    max-width: 270px;
+    padding: 19px 0 19px 240px;
+    margin-left: auto;
+    position: relative;
+    min-height: 60px;
+    box-sizing: content-box;
+}
+.how-does__item + .how-does__item {
+    margin-top: 40px;
+}
+/* ==================================== */
+/* ==================================== */
+/* ==================================== */
+
 .footer {
     background-color: #151515;
     padding: 50px 0 32px;
