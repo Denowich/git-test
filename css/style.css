@@ -144,7 +144,7 @@ body {
     font-size: 24px;
     padding-bottom: 20px;
 }
-.footer-menu__link {
+.footer-menu__link:hover {
     text-decoration: underline;
 }
 
