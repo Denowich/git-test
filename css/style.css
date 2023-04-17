@@ -49,5 +49,5 @@ body {
 }
 .menu__link:hover {
     /* text-decoration: underline; */
-    color: yellow;
+    color: rgb(250, 77, 77)
 }
