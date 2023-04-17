@@ -57,7 +57,8 @@ body {
     font-weight: 700;
 }
 .menu__link:hover {
-    text-decoration: underline;
+    color: yellow;
+    /* text-decoration: underline; */
 }
 /* ==================================== */
 .main {
