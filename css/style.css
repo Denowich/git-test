@@ -203,8 +203,7 @@ body {
 }
 .blog__link {
     text-transform: lowercase;
-    /* background-color: #06f; */
-    background-color: rgb(236, 92, 92);
+    background-color: #06f;
     color: #fff;
     padding: 4px 20px;
 }
