@@ -58,8 +58,10 @@ body {
     font-weight: 700;
 }
 .menu__link:hover {
-    /* text-decoration: underline; */
-    color: rgb(253, 113, 103);
+    text-decoration: underline;
+}
+.menu__link:hover--active {
+    color: #06f;
 }
 /* ==================================== */
 .main {
