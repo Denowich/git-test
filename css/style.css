@@ -28,7 +28,7 @@ body {
     background-color: #151515;
 }
 .header-main {
-    /* background-color: transparent; */
+    background-color: transparent;
 }
 .container {
     max-width: 1230px;
@@ -60,7 +60,7 @@ body {
 .menu__link:hover {
     text-decoration: underline;
 }
-.menu__link:hover--active {
+.menu__link--active {
     color: #06f;
 }
 /* ==================================== */
