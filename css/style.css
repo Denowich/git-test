@@ -401,6 +401,9 @@ body {
     .footer-menu__title {
         font-size: 20px;
     }
+    .footer-menu__link {
+        font-size: 14px;
+    }
     .footer-app {
         flex-direction: column;
         margin-bottom: 20px;
