@@ -347,7 +347,7 @@ body {
         bottom: 0;
         padding-top: 120px;
         height: 100vh;
-        transform: translateY(-100%);
+        transform: translateY(-110%);
         transition: transform .3s ease;
     }
     .menu__list.menu__list--active {
